@@ -32,7 +32,11 @@ a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+  border-color: rgba(255, 255, 255, 0.3);
+  border-style: dotted;
+  border-width: 3px;
+
+  }
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -54,6 +58,7 @@ a {
       margin-left: 0; } }
 
 .page-header {
+  height: 250px;
   color: #fff;
   text-align: center;
   background-color: #159957;
